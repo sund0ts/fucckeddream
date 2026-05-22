@@ -14,32 +14,6 @@ Telegram-бот для хостинга Railway. Личный бот с сист
   - Массовая рассылка
   - Добавление/удаление администраторов
 
-## 🛠 Деплой на Railway
-
-### 1. Загрузи код на GitHub
-```bash
-git init
-git add .
-git commit -m "init bot"
-git remote add origin https://github.com/ВАШ_АККАУНТ/ВАШ_РЕПО.git
-git push -u origin main
-```
-
-### 2. Создай проект на Railway
-1. Зайди на [railway.app](https://railway.app)
-2. New Project → Deploy from GitHub repo
-3. Выбери свой репозиторий
-
-### 3. Переменные окружения (опционально)
-В Railway → Variables добавь:
-```
-BOT_TOKEN=8653082594:AAGvap2Z7L_v308Wej6Jk3yWYaQDdei9_F0
-```
-(или оставь токен прямо в коде для простоты)
-
-### 4. Готово! 🎉
-Railway автоматически запустит `python bot.py`
-
 ## 📁 Структура файлов
 ```
 bot.py          — основной код бота
